@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">農夫市集</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="actionbar_membersignup">店家員工註冊</string>
+    <string name="actionbar_membersignup2">客户註冊</string>
+    <string name="actionbar_mystoresignup">店家註冊</string>
+    <string name="upload_logo">徽標上傳（請按著不放）：</string>
+
+    <string name="farm_area">面積：</string>
+    <string name="farm_crop">農作物：</string>
+    <string name="farm_crop2">農作物：*當新的農場建立完畢後才能使用</string>
+    <string name="farm_quantity">平均收入量：</string>
+    <string name="farm_introduce">介紹：</string>
+    <string name="farm_update">點我送出</string>
+
+    <string name="login_account">帳號：</string>
+    <string name="login_password">密碼：</string>
+    <string name="login_remember">記住帳號密碼</string>
+    <string name="login_enter">登入</string>
+    <string name="logout_enter">登出</string>
+    <string name="login_leave">離開</string>
+    <string name="login_farm">農場</string>
+    <string name="login_crop">農作物</string>
+    <string name="login_resume">履歷表</string>
+    <string name="login_store">訂單查詢</string>
+    <string name="login_buy">購買清單</string>
+    <string name="login_userinfo">個人資料</string>
+    <string name="login_service">託運服務</string>
+
+    <string name="crop_name">上架物名稱：</string>
+    <string name="crop_name_hint"></string>
+    <string name="crop_datetime"></string>
+    <string name="crop_unit">數量：</string>
+    <string name="crop_pic">粒</string>
+    <string name="crop_package">單位說明：</string>
+    <string name="crop_store">存貨：</string>
+    <string name="crop_farmer">"農場："</string>
+    <string name="crop_type">農作物：</string>
+    <string name="crop_launchdate">上市日期：</string>
+    <string name="crop_buy_name">貨品：</string>
+    <string name="crop_buy_quantity">購買數量：</string>
+    <string name="crop_buy_title">我要購買</string>
+    <string name="crop_buy_agreement">確認購買</string>
+    <string name="crop_buy_question">是否確認購買?</string>
+    <string name="crop_buy_error">訂購數量錯誤</string>
+    <string name="crop_buy_error_info">抱歉，您輸入的數量出現錯誤</string>
+    <string name="crop_outstore">售完</string>
+    <string name="crop_outstore_info">抱歉，此商品已經售完，本店會盡快引貨</string>
+    <string name="crop_search_resume">履歷速查</string>
+    <string name="crop_service">寄送方式：</string>
+    <string name="crop_service_myself">自取</string>
+    <string name="crop_service_address">寄送地址：</string>
+
+    <string name="hint_area"></string>
+    <string name="hint_crop"></string>
+    <string name="hint_quantity"></string>
+    <string name="hint_introduce"></string>
+    <string name="hint_name">在這裏輸入名稱</string>
+
+    <string name="crop_price">價格：</string>
+    <string name="crop_totalprice">總價格：</string>
+    <string name="upload_image">圖案上傳（請按著不放）：</string>
+    <string name="taiwan_dollar">元</string>
+
+    <string name="resume_date">日期：</string>
+    <string name="resume_title">標題：</string>
+    <string name="resume_info_crop">農作物：</string>
+    <string name="resume_info_farm">農場：</string>
+    <string name="resume_title2">履歷表標題（上市）：</string>
+
+    <string name="register_account">帳號：</string>
+    <string name="register_password">密碼：</string>
+    <string name="register_name">姓名：</string>
+    <string name="register_sex">性別：</string>
+    <string name="register_male">男性</string>
+    <string name="register_female">女性</string>
+    <string name="register_birth">出生日（民國 年/月/日）：</string>
+    <string name="register_phone">聯絡：</string>
+    <string name="register_mail">電郵：</string>
+    <string name="register_storename">分家店名：</string>
+    <string name="register_address">局號地址：</string>
+    <string name="register_worktime">每日經營時間：</string>
+    <string name="register_introduce">店家介紹：</string>
+    <string name="register_code">店家編號：</string>
+
+    <string name="click_cancel">取消</string>
+    <string name="click_send">確定</string>
+    <string name="click_insert_new_farm">至農場</string>
+    <string name="click_insert_new_crop">至農作物</string>
+    <string name="click_yes">是</string>
+    <string name="click_no">否</string>
+    <string name="click_refresh">刷新</string>
+    <string name="click_calender">請選擇日期</string>
+    <string name="click_back">返回</string>
+    <string name="click_update">更新</string>
+    <string name="alertdialog_ok">確定</string>
+
+    <string name="insert">新增</string>
+    <string name="modify">修改</string>
+    <string name="delete">刪除</string>
+
+    <string name="service_one">宅配/快遞</string>
+    <string name="service_two">7-11取貨</string>
+
+    <string name="bank_name">戶名：</string>
+    <string name="bank_code">代碼：</string>
+    <string name="bank_which">銀行：</string>
+    <string name="bank_account">帳號：</string>
+    <string name="login_bank">匯款帳號</string>
+    <string name="mystore_name">店家店名：</string>
+    <string name="type_name">名稱：</string>
+    <string name="message_notice">信息: 註意</string>
+
+    <string name="status_waiting">等待受理</string>
+    <string name="status_paying">等待匯入</string>
+    <string name="status_paid">已經匯入</string>
+    <string name="status_finished">手續結束</string>
+    <string name="message_order">信息：訂單</string>
+    <string name="message_no_order_info">目前没有订单</string>
+    <string name="message_no_receipt_info">目前没有附上收據</string>
+
+    <string name="register_bank">銀行號碼:</string>
+    <string name="order_many">購買數量：</string>
+    <string name="crop_farm">農場：</string>
+    <string name="delete_target">刪除對象：</string>
+    <string name="customer_Info">客戶基本資料</string>
+    <string name="select_market">請選擇店家</string>
+    <string name="input_no_need">忽略</string>
+    <string name="message_function_off">功能暫時停用</string>
+
+    <string name="message_update_failed">信息：更新失敗</string>
+    <string name="message_update_failed_info">抱歉，本系統無法順利更新</string>
+    <string name="message_insert_failed">信息：新增失敗</string>
+    <string name="message_insert_failed_info">抱歉，本系統無法順利新增</string>
+    <string name="message_buy_failed">信息：購買失敗</string>
+    <string name="message_buy_failed_info">抱歉，本系統無法順利購買</string>
+    <string name="message_upload_Image_failed">信息：圖片上傳失敗</string>
+    <string name="message_upload_Image_failed_info">抱歉，圖片無法順利上傳</string>
+    <string name="message_delete_failed">信息：刪除失敗</string>
+    <string name="message_delete_failed_info">抱歉，本系統無法順利刪除</string>
+    <string name="message_load_failed">信息：系統錯誤</string>
+    <string name="message_load_failed_info">抱歉，本系統無法順利執行，請檢查網絡是否連接？</string>
+    <string name="message_register_failed">信息：註冊失败</string>
+    <string name="message_register_failed_info">抱歉，註冊無法順利完成</string>
+
+    <string name="message_login_succeed">信息：登入成功</string>
+    <string name="message_login_succeed_info">登入成功</string>
+    <string name="message_update_succeed">信息：更新成功</string>
+    <string name="message_update_succeed_info">更新動作已順利執行</string>
+    <string name="message_insert_succeed">信息：新增成功</string>
+    <string name="message_insert_succeed_info">新增動作已順利執行</string>
+    <string name="message_buy_succeed">信息：購買成功</string>
+    <string name="message_buy_succeed_info">已順利購買,可以到購買清單確認</string>
+    <string name="message_message_upload_Image_succeed">信息：圖片上傳成功</string>
+    <string name="message_message_upload_Image_succeed_info">圖片已順利上傳</string>
+    <string name="message_delete_succeeded">信息：刪除成功</string>
+    <string name="message_delete_succeeded_info">刪除動作已順利執行</string>
+    <string name="message_register_succeed">信息：註冊成功</string>
+    <string name="message_register_succeed_info3">在您進行會員註冊的時候，記得將店家編號填入正確格子裏</string>
+    <string name="message_register_succeed_info2">註冊成功，請必須記下店家編號：</string>
+    <string name="message_register_succeed_info">註冊成功，回去首頁開始登入動作</string>
+
+    <string name="message_no_account_info">抱歉，本系統無法查詢帳號存在，請再次確認帳號/密碼是否錯誤</string>
+    <string name="message_no_account">信息：帳號不存在</string>
+    <string name="message_no_data">信息：沒有資料</string>
+
+    <string name="message_login_blank">信息：帳號/密碼未輸入</string>
+    <string name="message_login_blank_info">請確認帳號/密碼是否輸入</string>
+    <string name="message_blank">信息：部分無法空白</string>
+    <string name="message_blank_info">抱歉，請確認輸入是否空白</string>
+
+    <string name="message_account_error">信息: 帳號發生錯誤</string>
+    <string name="message_account_error_info">您的帳號發生錯誤，建議聯絡開發人員查詢疑問</string>
+    <string name="message_error">信息：系統錯誤</string>
+    <string name="message_error_info">抱歉，本系統無法順利執行，請檢查網絡是否連接？</string>
+
+    <string name="message_upload_Image">信息：收據</string>
+    <string name="message_upload_Image_info">是否確定將收據上傳</string>
+    <string name="message_update">信息：更新</string>
+    <string name="message_update_info">是否確定送出更新</string>
+    <string name="message_insert">信息：新增</string>
+    <string name="message_insert_info">是否確定送出新增</string>
+    <string name="message_delete">信息：刪除</string>
+    <string name="message_delete_info">是否確定送出刪除</string>
+    <string name="message_delete_info2">註意，當指定對象被刪除後，與指定對象的全部履歷記錄也一同消失</string>
+
+    <string name="message_unpublished">信息：功能未開放</string>
+    <string name="message_unpublished_info">抱歉，由於此功能未完善，目前暫時未開放</string>
+
+    <string name="message_loading">讀取中</string>
+    <string name="message_loading_info">資料讀取中請稍候</string>
+
+    <string name="message_send_signup">信息：發出註冊</string>
+    <string name="message_send_signup_info">是否確定發出註冊？</string>
+
+    <string name="message_no_data_info">抱歉，本系統無法查詢到任何資料，可通過【新增】加入新資料</string>
+    <string name="message_no_data_info2">目前沒有任何農場的資料，請至【農場】新增農場</string>
+    <string name="message_no_data_info3">目前沒有任何上架物的資料，請至【農作物】新增上架物</string>
+    <string name="message_no_data_info4">目前沒有任何農作物項目選擇，請點擊【+】新增農作物項目</string>
+    <string name="message_no_data_info5">目前沒有任何農作物項目選擇，此農場可能未有任何履歷記錄或上市物品，請點擊上方【+】新增履歷或至【農作物】新增上架物</string>
+    <string name="message_no_data_info6">目前沒有任何資料</string>
+    <string name="message_no_data_info7">目前沒有任何農場的資料，請至【農場】新增農作物項目</string>
+
+    <string name="message_order_question1">信息: 訂單</string>
+    <string name="message_order_question1_info">是否確定接受此訂單?</string>
+    <string name="message_order_question2">信息: 訂單</string>
+    <string name="message_order_question2_info">是否確認匯款成功?</string>
+    <string name="message_order_question3">信息: 訂單</string>
+    <string name="message_order_question3_info">是否確認已經匯款?</string>
+
+    <string name="message_notice_info1">在註冊會員前，必須擁有店家編號才能順利註冊\n</string>
+    <string name="message_notice_info2">註冊為為店家負責人，必須預先【店家註冊】取得店家編號；\n</string>
+    <string name="message_notice_info3">註冊為店家一般員工，必須向店家負責人取得店家編號</string>
+    <string name="message_notice_info4">當註冊成功後，系統會回傳一個用來表示店家專屬代號，請必須記下</string>
+    <string name="message_spinner_no_select">信息：選擇清單錯誤</string>
+    <string name="message_spinner_no_select_info">未選擇農場清單或農作物清單</string>
+    <string name="message_resume_loading_info">履歷表自動建立中</string>
+</resources>

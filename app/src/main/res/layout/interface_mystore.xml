@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#F6E4CC"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/mystore_name"
+        android:id="@+id/textView37"
+        android:textSize="48px" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mystore_name_edit"
+        android:textSize="36px" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/upload_logo"
+        android:id="@+id/textView39"
+        android:textSize="48px" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/mystore_logo_view" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/click_cancel"
+            android:id="@+id/mystore_cancel_click"
+            android:layout_weight="0.5"
+            android:background="@drawable/buttonshapered"
+            android:textSize="48px" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/click_send"
+            android:id="@+id/mystore_accept_click"
+            android:layout_weight="0.5"
+            android:background="@drawable/buttonshapeblue"
+            android:textSize="48px" />
+    </LinearLayout>
+</LinearLayout>

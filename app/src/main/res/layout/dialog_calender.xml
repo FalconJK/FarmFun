@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/calendarView"
+        android:layout_weight="0.8" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/click_cancel"
+            android:id="@+id/cancel_calender_click"
+            android:layout_weight="0.5"
+            android:background="@drawable/buttonshapered"
+            android:textSize="48px" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/click_send"
+            android:id="@+id/accept_calender_click"
+            android:layout_weight="0.5"
+            android:background="@drawable/buttonshapeblue"
+            android:textSize="48px" />
+    </LinearLayout>
+</LinearLayout>

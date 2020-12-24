@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:padding="5dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/crop_photo"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitStart" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/crop_name_view"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/crop_photo"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="60px"
+        android:background="#FFCC99" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/crop_datetime_view"
+        android:gravity="right"
+        android:layout_below="@+id/crop_name_view"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/crop_photo"
+        android:layout_toEndOf="@+id/crop_photo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/crop_quantity_view"
+        android:gravity="center"
+        android:textSize="48px"
+        android:layout_below="@+id/crop_datetime_view"
+        android:layout_alignRight="@+id/crop_datetime_view"
+        android:layout_alignEnd="@+id/crop_datetime_view"
+        android:layout_toRightOf="@+id/crop_photo"
+        android:layout_toEndOf="@+id/crop_photo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/crop_unitprice_view"
+        android:layout_below="@+id/crop_quantity_view"
+        android:layout_alignRight="@+id/crop_quantity_view"
+        android:layout_alignEnd="@+id/crop_quantity_view"
+        android:layout_toRightOf="@+id/crop_photo"
+        android:layout_toEndOf="@+id/crop_photo"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/crop_introduce_view"
+        android:textSize="36px"
+        android:background="#FFCC99"
+        android:layout_below="@+id/crop_launchdate_view"
+        android:layout_alignRight="@+id/crop_unitprice_view"
+        android:layout_alignEnd="@+id/crop_unitprice_view" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/crop_launchdate_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/crop_unitprice_view"
+        android:layout_alignEnd="@+id/crop_unitprice_view"
+        android:layout_below="@+id/crop_photo" />
+
+</RelativeLayout>

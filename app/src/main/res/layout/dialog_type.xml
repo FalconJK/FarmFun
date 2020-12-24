@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/type_name"
+        android:id="@+id/textView47"
+        android:textSize="48px" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/type_name_edit" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/click_cancel"
+            android:id="@+id/type_cancel_click"
+            android:layout_weight="0.5"
+            android:background="@drawable/buttonshapered"
+            android:textSize="48px" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/click_send"
+            android:id="@+id/type_accept_click"
+            android:layout_weight="0.5"
+            android:background="@drawable/buttonshapeblue"
+            android:textSize="48px" />
+    </LinearLayout>
+</LinearLayout>

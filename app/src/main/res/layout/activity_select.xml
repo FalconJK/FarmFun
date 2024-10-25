@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.farm.BlueTooth.SelectActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="選擇裝置."
+        android:paddingLeft="10dip"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/info"
+        android:textSize="15sp"
+        android:paddingLeft="10dip"
+        android:paddingBottom="5dip"
+        android:textColor="#C0C0C0"
+        android:text="請先至設定藍芽配對之頁面配對裝置"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"/>
+
+    <me.aflak.pulltorefresh.PullToRefresh
+        android:id="@+id/pull_to_refresh"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        </ListView>
+
+    </me.aflak.pulltorefresh.PullToRefresh>
+
+</RelativeLayout>

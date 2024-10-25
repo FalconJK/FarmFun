@@ -1,220 +1,170 @@
 <resources>
     <string name="app_name">農夫市集</string>
+    <string name="title_home">主頁</string>
+    <string name="title_dashboard">分類</string>
+    <string name="title_notifications">我的帳戶</string>
 
-    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="all">ALL</string>
+    <string name="more">MORE</string>
+    <string name="press_again_exit">在按一次結束</string>
+    <string name="author">Author</string>
+    <string name="author_name">User</string>
+    <string name="name">Name :</string>
+    <string name="country">Country :</string>
+    <string name="email">Email :</string>
+    <string name="comment">Comment</string>
+    <string name="favorite">Favorite</string>
+    <string name="account">Account</string>
+    <string name="smartphone">Smartphone</string>
+    <string name="place">Place</string>
+    <string name="RecyclerView">RecyclerView</string>
+    <string name="Qrcode">Qrcode</string>
+    <string name="AES">AES</string>
+    <string name="view_one">Home</string>
+    <string name="about">About</string>
+    <string name="logout">Logout</string>
+    <string name="version">Version</string>
+    <string name="author_email">a0956332819@gmail.com</string>
+    <string name="open_navigation">Open Navigation</string>
+    <string name="close_navigation">Close Navigation</string>
+    <string name="update">Update</string>
+    <string name="wait">Download latest version, please wait...</string>
+    <string name="destination">Destination：</string>
+    <string name="station">Station：</string>
+    <string name="update_time">Time：</string>
+    <string name="action_settings">action_settings</string>
+    <string name="search_title">搜尋...</string>
+    <string name="title_activity_commodity">CommodityActivity</string>
 
-    <string name="actionbar_membersignup">店家員工註冊</string>
-    <string name="actionbar_membersignup2">客户註冊</string>
-    <string name="actionbar_mystoresignup">店家註冊</string>
-    <string name="upload_logo">徽標上傳（請按著不放）：</string>
 
-    <string name="farm_area">面積：</string>
-    <string name="farm_crop">農作物：</string>
-    <string name="farm_crop2">農作物：*當新的農場建立完畢後才能使用</string>
-    <string name="farm_quantity">平均收入量：</string>
-    <string name="farm_introduce">介紹：</string>
-    <string name="farm_update">點我送出</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
 
-    <string name="login_account">帳號：</string>
-    <string name="login_password">密碼：</string>
-    <string name="login_remember">記住帳號密碼</string>
-    <string name="login_enter">登入</string>
-    <string name="logout_enter">登出</string>
-    <string name="login_leave">離開</string>
-    <string name="login_farm">農場</string>
-    <string name="login_crop">農作物</string>
-    <string name="login_resume">履歷表</string>
-    <string name="login_store">訂單查詢</string>
-    <string name="login_buy">購買清單</string>
-    <string name="login_userinfo">個人資料</string>
-    <string name="login_service">託運服務</string>
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
 
-    <string name="crop_name">上架物名稱：</string>
-    <string name="crop_name_hint"></string>
-    <string name="crop_datetime"></string>
-    <string name="crop_unit">數量：</string>
-    <string name="crop_pic">粒</string>
-    <string name="crop_package">單位說明：</string>
-    <string name="crop_store">存貨：</string>
-    <string name="crop_farmer">"農場："</string>
-    <string name="crop_type">農作物：</string>
-    <string name="crop_launchdate">上市日期：</string>
-    <string name="crop_buy_name">貨品：</string>
-    <string name="crop_buy_quantity">購買數量：</string>
-    <string name="crop_buy_title">我要購買</string>
-    <string name="crop_buy_agreement">確認購買</string>
-    <string name="crop_buy_question">是否確認購買?</string>
-    <string name="crop_buy_error">訂購數量錯誤</string>
-    <string name="crop_buy_error_info">抱歉，您輸入的數量出現錯誤</string>
-    <string name="crop_outstore">售完</string>
-    <string name="crop_outstore_info">抱歉，此商品已經售完，本店會盡快引貨</string>
-    <string name="crop_search_resume">履歷速查</string>
-    <string name="crop_service">寄送方式：</string>
-    <string name="crop_service_myself">自取</string>
-    <string name="crop_service_address">寄送地址：</string>
+        "Bold, graphic, intentional.\n\n"
 
-    <string name="hint_area"></string>
-    <string name="hint_crop"></string>
-    <string name="hint_quantity"></string>
-    <string name="hint_introduce"></string>
-    <string name="hint_name">在這裏輸入名稱</string>
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
 
-    <string name="crop_price">價格：</string>
-    <string name="crop_totalprice">總價格：</string>
-    <string name="upload_image">圖案上傳（請按著不放）：</string>
-    <string name="taiwan_dollar">元</string>
+        "Motion provides meaning.\n\n"
 
-    <string name="resume_date">日期：</string>
-    <string name="resume_title">標題：</string>
-    <string name="resume_info_crop">農作物：</string>
-    <string name="resume_info_farm">農場：</string>
-    <string name="resume_title2">履歷表標題（上市）：</string>
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
 
-    <string name="register_account">帳號：</string>
-    <string name="register_password">密碼：</string>
-    <string name="register_name">姓名：</string>
-    <string name="register_sex">性別：</string>
-    <string name="register_male">男性</string>
-    <string name="register_female">女性</string>
-    <string name="register_birth">出生日（民國 年/月/日）：</string>
-    <string name="register_phone">聯絡：</string>
-    <string name="register_mail">電郵：</string>
-    <string name="register_storename">分家店名：</string>
-    <string name="register_address">局號地址：</string>
-    <string name="register_worktime">每日經營時間：</string>
-    <string name="register_introduce">店家介紹：</string>
-    <string name="register_code">店家編號：</string>
+        "3D world.\n\n"
 
-    <string name="click_cancel">取消</string>
-    <string name="click_send">確定</string>
-    <string name="click_insert_new_farm">至農場</string>
-    <string name="click_insert_new_crop">至農作物</string>
-    <string name="click_yes">是</string>
-    <string name="click_no">否</string>
-    <string name="click_refresh">刷新</string>
-    <string name="click_calender">請選擇日期</string>
-    <string name="click_back">返回</string>
-    <string name="click_update">更新</string>
-    <string name="alertdialog_ok">確定</string>
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
 
-    <string name="insert">新增</string>
-    <string name="modify">修改</string>
-    <string name="delete">刪除</string>
+        "Light and shadow.\n\n"
 
-    <string name="service_one">宅配/快遞</string>
-    <string name="service_two">7-11取貨</string>
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
 
-    <string name="bank_name">戶名：</string>
-    <string name="bank_code">代碼：</string>
-    <string name="bank_which">銀行：</string>
-    <string name="bank_account">帳號：</string>
-    <string name="login_bank">匯款帳號</string>
-    <string name="mystore_name">店家店名：</string>
-    <string name="type_name">名稱：</string>
-    <string name="message_notice">信息: 註意</string>
+        "Resting elevation.\n\n"
 
-    <string name="status_waiting">等待受理</string>
-    <string name="status_paying">等待匯入</string>
-    <string name="status_paid">已經匯入</string>
-    <string name="status_finished">手續結束</string>
-    <string name="message_order">信息：訂單</string>
-    <string name="message_no_order_info">目前没有订单</string>
-    <string name="message_no_receipt_info">目前没有附上收據</string>
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
 
-    <string name="register_bank">銀行號碼:</string>
-    <string name="order_many">購買數量：</string>
-    <string name="crop_farm">農場：</string>
-    <string name="delete_target">刪除對象：</string>
-    <string name="customer_Info">客戶基本資料</string>
-    <string name="select_market">請選擇店家</string>
-    <string name="input_no_need">忽略</string>
-    <string name="message_function_off">功能暫時停用</string>
+        "Component elevations.\n\n"
 
-    <string name="message_update_failed">信息：更新失敗</string>
-    <string name="message_update_failed_info">抱歉，本系統無法順利更新</string>
-    <string name="message_insert_failed">信息：新增失敗</string>
-    <string name="message_insert_failed_info">抱歉，本系統無法順利新增</string>
-    <string name="message_buy_failed">信息：購買失敗</string>
-    <string name="message_buy_failed_info">抱歉，本系統無法順利購買</string>
-    <string name="message_upload_Image_failed">信息：圖片上傳失敗</string>
-    <string name="message_upload_Image_failed_info">抱歉，圖片無法順利上傳</string>
-    <string name="message_delete_failed">信息：刪除失敗</string>
-    <string name="message_delete_failed_info">抱歉，本系統無法順利刪除</string>
-    <string name="message_load_failed">信息：系統錯誤</string>
-    <string name="message_load_failed_info">抱歉，本系統無法順利執行，請檢查網絡是否連接？</string>
-    <string name="message_register_failed">信息：註冊失败</string>
-    <string name="message_register_failed_info">抱歉，註冊無法順利完成</string>
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
 
-    <string name="message_login_succeed">信息：登入成功</string>
-    <string name="message_login_succeed_info">登入成功</string>
-    <string name="message_update_succeed">信息：更新成功</string>
-    <string name="message_update_succeed_info">更新動作已順利執行</string>
-    <string name="message_insert_succeed">信息：新增成功</string>
-    <string name="message_insert_succeed_info">新增動作已順利執行</string>
-    <string name="message_buy_succeed">信息：購買成功</string>
-    <string name="message_buy_succeed_info">已順利購買,可以到購買清單確認</string>
-    <string name="message_message_upload_Image_succeed">信息：圖片上傳成功</string>
-    <string name="message_message_upload_Image_succeed_info">圖片已順利上傳</string>
-    <string name="message_delete_succeeded">信息：刪除成功</string>
-    <string name="message_delete_succeeded_info">刪除動作已順利執行</string>
-    <string name="message_register_succeed">信息：註冊成功</string>
-    <string name="message_register_succeed_info3">在您進行會員註冊的時候，記得將店家編號填入正確格子裏</string>
-    <string name="message_register_succeed_info2">註冊成功，請必須記下店家編號：</string>
-    <string name="message_register_succeed_info">註冊成功，回去首頁開始登入動作</string>
+        "Responsive elevation and dynamic elevation offsets.\n\n"
 
-    <string name="message_no_account_info">抱歉，本系統無法查詢帳號存在，請再次確認帳號/密碼是否錯誤</string>
-    <string name="message_no_account">信息：帳號不存在</string>
-    <string name="message_no_data">信息：沒有資料</string>
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
 
-    <string name="message_login_blank">信息：帳號/密碼未輸入</string>
-    <string name="message_login_blank_info">請確認帳號/密碼是否輸入</string>
-    <string name="message_blank">信息：部分無法空白</string>
-    <string name="message_blank_info">抱歉，請確認輸入是否空白</string>
+        "Avoiding elevation interference.\n\n"
 
-    <string name="message_account_error">信息: 帳號發生錯誤</string>
-    <string name="message_account_error_info">您的帳號發生錯誤，建議聯絡開發人員查詢疑問</string>
-    <string name="message_error">信息：系統錯誤</string>
-    <string name="message_error_info">抱歉，本系統無法順利執行，請檢查網絡是否連接？</string>
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
 
-    <string name="message_upload_Image">信息：收據</string>
-    <string name="message_upload_Image_info">是否確定將收據上傳</string>
-    <string name="message_update">信息：更新</string>
-    <string name="message_update_info">是否確定送出更新</string>
-    <string name="message_insert">信息：新增</string>
-    <string name="message_insert_info">是否確定送出新增</string>
-    <string name="message_delete">信息：刪除</string>
-    <string name="message_delete_info">是否確定送出刪除</string>
-    <string name="message_delete_info2">註意，當指定對象被刪除後，與指定對象的全部履歷記錄也一同消失</string>
 
-    <string name="message_unpublished">信息：功能未開放</string>
-    <string name="message_unpublished_info">抱歉，由於此功能未完善，目前暫時未開放</string>
+    <string name="order">
+        "石材業                               *1             6億元"
 
-    <string name="message_loading">讀取中</string>
-    <string name="message_loading_info">資料讀取中請稍候</string>
+        "觀光業                               *1             6億元"
 
-    <string name="message_send_signup">信息：發出註冊</string>
-    <string name="message_send_signup_info">是否確定發出註冊？</string>
+        "受災戶                               *1             8億元"
+    </string>
+    <string name="Title">ROCCAT 德國冰豹 SUORA 無框 電競 機械式鍵盤 青軸中</string>
+    <string name="title_activity_login">Sign in</string>
 
-    <string name="message_no_data_info">抱歉，本系統無法查詢到任何資料，可通過【新增】加入新資料</string>
-    <string name="message_no_data_info2">目前沒有任何農場的資料，請至【農場】新增農場</string>
-    <string name="message_no_data_info3">目前沒有任何上架物的資料，請至【農作物】新增上架物</string>
-    <string name="message_no_data_info4">目前沒有任何農作物項目選擇，請點擊【+】新增農作物項目</string>
-    <string name="message_no_data_info5">目前沒有任何農作物項目選擇，此農場可能未有任何履歷記錄或上市物品，請點擊上方【+】新增履歷或至【農作物】新增上架物</string>
-    <string name="message_no_data_info6">目前沒有任何資料</string>
-    <string name="message_no_data_info7">目前沒有任何農場的資料，請至【農場】新增農作物項目</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_producer">ProducerActivity</string>
 
-    <string name="message_order_question1">信息: 訂單</string>
-    <string name="message_order_question1_info">是否確定接受此訂單?</string>
-    <string name="message_order_question2">信息: 訂單</string>
-    <string name="message_order_question2_info">是否確認匯款成功?</string>
-    <string name="message_order_question3">信息: 訂單</string>
-    <string name="message_order_question3_info">是否確認已經匯款?</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="checkhistory">近期查看</string>
+    <string name="checkmyaccount">查看我的帳戶</string>
+    <string name="checkhelp">查看幫助中心</string>
+    <string name="title_activity_login_singin">LoginSinginActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_store">StoreActivity</string>
+    <string name="title_activity_farm">FarmActivity</string>
 
-    <string name="message_notice_info1">在註冊會員前，必須擁有店家編號才能順利註冊\n</string>
-    <string name="message_notice_info2">註冊為為店家負責人，必須預先【店家註冊】取得店家編號；\n</string>
-    <string name="message_notice_info3">註冊為店家一般員工，必須向店家負責人取得店家編號</string>
-    <string name="message_notice_info4">當註冊成功後，系統會回傳一個用來表示店家專屬代號，請必須記下</string>
-    <string name="message_spinner_no_select">信息：選擇清單錯誤</string>
-    <string name="message_spinner_no_select_info">未選擇農場清單或農作物清單</string>
-    <string name="message_resume_loading_info">履歷表自動建立中</string>
 </resources>

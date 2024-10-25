@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/crop"
+            android:icon="@drawable/cropfarm"
+            android:checked="true"
+            android:title="農產品" />
+        <item
+            android:id="@+id/stores"
+            android:icon="@drawable/storeshop"
+            android:title="店家" />
+        <item
+            android:id="@+id/farm"
+            android:icon="@drawable/ic_farm_2"
+            android:title="農場"
+            android:visible="true" />
+
+        <item
+            android:id="@+id/resume"
+            android:icon="@drawable/resume"
+            android:title="履歷"
+            android:visible="false"/>
+        <item
+            android:id="@+id/purchaseorder"
+            android:icon="@drawable/purchaseorder"
+            android:title="訂單" />
+        <item
+            android:id="@+id/employee"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="員工管理"
+            />
+        <item
+            android:id="@+id/add"
+            android:icon="@drawable/ic_person_add_black_24dp"
+            android:title="新增員工" />
+        <item
+            android:id="@+id/datacart"
+            android:icon="@drawable/datacart"
+            android:title="監控數據"
+            android:visible="false"
+            />
+    </group>
+</menu>

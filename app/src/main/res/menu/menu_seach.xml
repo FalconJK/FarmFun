@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".Consumer.Actitvity.MainActivity">
+
+    <item
+        android:id="@+id/login_in"
+        android:title="設定"
+        android:orderInCategory="100"
+        android:visible="true"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/my_search"
+        android:icon="@drawable/ic_open_search"
+        android:title="@string/search_title"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+</menu>

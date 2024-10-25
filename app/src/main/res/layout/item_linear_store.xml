@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 協調畫面配置元件 -->
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:background="#E1F5FE">
+            <RelativeLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="6dp">
+
+                <com.github.siyamed.shapeimageview.CircularImageView
+                    android:id="@+id/storeitem_logo"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    app:siBorderAlpha="0" />
+                <com.example.user.farm.widget.SqureImageView
+
+                    android:layout_width="23dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/tick"
+                    android:elevation="15dp"
+                    android:layout_alignBottom="@+id/storeitem_logo"
+                    android:layout_alignRight="@+id/storeitem_logo"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/storeitem_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/storeitem_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/storename"
+                        android:layout_gravity="top"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/comm_storecount"
+
+                        android:layout_alignBottom="@+id/comm_storecount"
+                        android:layout_gravity="top"
+                        android:layout_toEndOf="@+id/comm_storecount"
+                        android:layout_toRightOf="@+id/comm_storecount"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="個商品"
+                        android:textSize="13dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp">
+
+                <com.example.user.farm.widget.SqureImageView
+                    android:id="@+id/storeitem_comm1_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    />
+
+                <TextView
+                    android:id="@+id/storeitem_comm1_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/storeitem_comm1_img"
+                    android:layout_alignRight="@id/storeitem_comm1_img"
+                    android:background="#80000000"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp">
+                <com.example.user.farm.widget.SqureImageView
+                    android:id="@+id/storeitem_comm2_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    />
+
+                <TextView
+                    android:id="@+id/storeitem_comm2_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/storeitem_comm2_img"
+                    android:layout_alignRight="@id/storeitem_comm2_img"
+                    android:background="#80000000"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp">
+                <com.example.user.farm.widget.SqureImageView
+                    android:id="@+id/storeitem_comm3_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    />
+
+                <TextView
+                    android:id="@+id/storeitem_comm3_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/storeitem_comm3_img"
+                    android:layout_alignRight="@id/storeitem_comm3_img"
+                    android:background="#80000000"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp">
+                <com.example.user.farm.widget.SqureImageView
+                    android:id="@+id/storeitem_comm4_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    />
+
+                <TextView
+                    android:id="@+id/storeitem_comm4_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/storeitem_comm4_img"
+                    android:layout_alignRight="@id/storeitem_comm4_img"
+                    android:background="#80000000"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
